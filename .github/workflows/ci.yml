@@ -16,4 +16,3 @@ jobs:
       - run: yarn dedupe --check
 
       - run: yarn lint
-      - run: yarn build
