@@ -29,11 +29,12 @@ const getThemeConfig = (theme) => {
 
   return {
     foregroundColor: colors.fg.muted,
-    backgroundColor: colors.canvas.inset,
+    backgroundColor: colors.canvas.default,
     borderColor: colors.border.default,
     cursorColor: colors.accent.fg,
     cursorAccentColor: colors.canvas.default,
     selectionColor: chroma(colors.accent.fg).alpha(0.2).css(),
+
     colors: {
       black: colors.ansi.black,
       red: colors.ansi.red,
@@ -52,6 +53,39 @@ const getThemeConfig = (theme) => {
       lightCyan: colors.ansi.cyanBright,
       lightWhite: colors.ansi.whiteBright,
     },
+
+    css: `
+      .header_appTitle {
+        color: ${colors.fg.default};
+      }
+
+      .header_shape {
+        color: ${colors.fg.default};
+      }
+
+      .tab_tab {
+        color: ${colors.fg.muted};
+        background-color: ${colors.canvas.inset};
+      }
+
+      .tab_active {
+        color: ${colors.fg.default};
+        background-color: ${colors.canvas.default};
+      }
+
+      .tab_active::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        border-top: 1px solid ${colors.primer.border.active};
+      }
+
+      .tab_icon {
+        color: ${colors.fg.default};
+      }
+    `,
   };
 };
 
