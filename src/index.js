@@ -24,7 +24,7 @@ const getThemeColors = (theme) => {
   }
 };
 
-const getThemeConfig = (theme) => {
+const getThemeConfig = (config, theme) => {
   const colors = getThemeColors(theme);
 
   return {
@@ -85,6 +85,8 @@ const getThemeConfig = (theme) => {
       .tab_icon {
         color: ${colors.fg.default};
       }
+
+      ${config.css ?? ""}
     `,
   };
 };
@@ -92,6 +94,6 @@ const getThemeConfig = (theme) => {
 exports.decorateConfig = (config) => {
   return {
     ...config,
-    ...getThemeConfig(config.theme ?? "light"),
+    ...getThemeConfig(config, config.theme ?? "light"),
   };
 };
