@@ -1,4 +1,4 @@
-# Hyper GitHub Theme
+# GitHub Theme for Hyper
 
 ![CI](https://github.com/neetly/hyper-theme-github/workflows/CI/badge.svg)
 
