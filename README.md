@@ -1,4 +1,4 @@
-# GitHub Theme for Hyper
+# [GitHub Theme](https://github.com/primer/github-vscode-theme) for [Hyper](https://hyper.is/)
 
 ![CI](https://github.com/neetly/hyper-theme-github/workflows/CI/badge.svg)
 
