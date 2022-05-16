@@ -1,0 +1,26 @@
+{
+  "name": "hyper-theme-github",
+  "version": "0.0.0",
+  "homepage": "https://github.com/neetly/hyper-theme-github",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:neetly/hyper-theme-github.git"
+  },
+  "license": "MIT",
+  "main": "./src/index.js",
+  "files": [
+    "./src"
+  ],
+  "scripts": {
+    "lint": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  },
+  "dependencies": {
+    "@primer/primitives": "^7.8.3",
+    "chroma-js": "^2.4.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  },
+  "packageManager": "yarn@4.0.0-rc.5"
+}
