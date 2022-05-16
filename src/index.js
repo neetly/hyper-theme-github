@@ -97,3 +97,11 @@ exports.decorateConfig = (config) => {
     ...getThemeConfig(config, config.theme ?? "light"),
   };
 };
+
+// FIXME: https://github.com/vercel/hyper/pull/6538
+exports.getTermGroupProps = (uid, parentProps, props) => {
+  return {
+    ...props,
+    cursorAccentColor: parentProps.cursorAccentColor,
+  };
+};
