@@ -1,6 +1,6 @@
 # [GitHub Theme](https://github.com/primer/github-vscode-theme) for [Hyper](https://hyper.is/)
 
-![CI](https://github.com/neetly/hyper-theme-github/workflows/CI/badge.svg)
+[![CI](https://github.com/neetly/hyper-theme-github/actions/workflows/ci.yml/badge.svg)](https://github.com/neetly/hyper-theme-github/actions/workflows/ci.yml)
 
 | Light Theme                                  | Dark Theme                                  |
 | -------------------------------------------- | ------------------------------------------- |
