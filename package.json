@@ -20,7 +20,7 @@
     "chroma-js": "^2.4.2"
   },
   "devDependencies": {
-    "prettier": "^2.7.0"
+    "prettier": "^2.7.1"
   },
   "packageManager": "yarn@4.0.0-rc.9"
 }
