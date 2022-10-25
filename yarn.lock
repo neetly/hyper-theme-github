@@ -5,10 +5,10 @@ __metadata:
   version: 7
   cacheKey: 9
 
-"@primer/primitives@npm:^7.9.0":
-  version: 7.9.0
-  resolution: "@primer/primitives@npm:7.9.0"
-  checksum: d91d298cbc25212773b8b941ab1a6e1ca847c85d92e2778ead46739eddf1c140a3a34d2d48577746251c5174811679b81fe81fbf8e27d81cf1d02535dde3066d
+"@primer/primitives@npm:^7.10.0":
+  version: 7.10.0
+  resolution: "@primer/primitives@npm:7.10.0"
+  checksum: 36689d269527dafb705933737a976d7b2a6338adb8001dd987adf70f8f65dceade1380d66b0fc48e2152fe64c972334f6f347c00a422a9a532271980b2a3a311
   languageName: node
   linkType: hard
 
@@ -23,7 +23,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hyper-theme-github@workspace:."
   dependencies:
-    "@primer/primitives": "npm:^7.9.0"
+    "@primer/primitives": "npm:^7.10.0"
     chroma-js: "npm:^2.4.2"
     prettier: "npm:^2.7.1"
   languageName: unknown
